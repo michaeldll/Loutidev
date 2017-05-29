@@ -6,6 +6,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
 
+
+
+
 	<style type="text/css">
 
 	::selection { background-color: #E13300; color: white; }
@@ -57,18 +60,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		padding: 0 10px 0 10px;
 		margin: 20px 0 0 0;
 	}
-
-
-
-
-
-
-
-
-
-
-	
-
 	#container {
 		margin: 10px;
 		border: 1px solid #D0D0D0;
@@ -79,12 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-
-	<h1> this should work right? </h1>
-
-	<h1>dev branch test</h1>
-
+	<h1>voici le domaine dev</h1>
 	<div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
