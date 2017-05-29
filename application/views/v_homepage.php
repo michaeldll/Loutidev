@@ -15,9 +15,6 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">      <!--[if lt IE 9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
 	<![endif]-->
-
-
-
 </head>
 <body>
 <div class="wrapper">
@@ -90,7 +87,7 @@
 						<div class="item active">
 							<div class="col-sm-4">
 								<div class="thumbnail">
-									<img src="<?php /* echo base_url() */?>asset/photos/<?php/* echo $arrPhoto[0];*/?>" class="img-responsive" />
+									<img src="<?php /* echo base_url() */?>asset/photos/<?php echo "salle01.jpg";?>" class="img-responsive" />
 									<div class="panel-body">
 										<p><?php /* echo $arrIntitule[0]; */?></p>
 										<p><?php /* echo $arrDate[0]; */?></p>
@@ -100,7 +97,7 @@
 							</div>
 							<div class="col-sm-4">
 								<div class="thumbnail">
-									<img src="<?php /*echo base_url() */?>asset/photos/<?php/* echo $arrPhoto[1];*/?>" class="img-responsive" />
+									<img src="<?php /*echo base_url() */?>asset/photos/<?php echo "salle01.jpg";?>" class="img-responsive" />
 									<div class="panel-body">
 										<p><?php/* echo $arrIntitule[1]; */?></p>
 										<p><?php/* echo $arrDate[1]; */?></p>
@@ -110,7 +107,7 @@
 							</div>
 							<div class="col-sm-4">
 								<div class="thumbnail">
-									<img src="<?php echo base_url() ?>asset/photos/<?php/* echo $arrPhoto[2];*/?>" class="img-responsive" />
+									<img src="<?php echo base_url() ?>asset/photos/<?php echo "salle01.jpg";?>" class="img-responsive" />
 									<div class="panel-body">
 										<p><?php/* echo $arrIntitule[2]; */?></p>
 										<p><?php/* echo $arrDate[2]; */?></p>
@@ -122,7 +119,7 @@
 						<div class="item">
 							<div class="col-sm-4">
 								<div class="thumbnail">
-									<img src="<?php echo base_url() ?>asset/photos/<?php/* echo $arrPhoto[3];*/?>" class="img-responsive" />
+									<img src="<?php echo base_url() ?>asset/photos/<?php echo "salle01.jpg";?>" class="img-responsive" />
 									<div class="panel-body">
 										<p><?php/* echo $arrIntitule[3]; */?></p>
 										<p><?php/* echo $arrDate[3]; */?></p>
@@ -132,7 +129,7 @@
 							</div>
 							<div class="col-sm-4">
 								<div class="thumbnail">
-									<img src="<?php /* echo base_url() */?>asset/photos/<?php/* echo $arrPhoto[4];*/?>" class="img-responsive" />
+									<img src="<?php /* echo base_url() */?>asset/photos/<?php echo "salle01.jpg";?>" class="img-responsive" />
 									<div class="panel-body">
 										<p><?php/* echo $arrIntitule[4]; */?></p>
 										<p><?php/* echo $arrDate[4]; */?></p>
@@ -142,7 +139,7 @@
 							</div>
 							<div class="col-sm-4">
 								<div class="thumbnail">
-									<img src="<?php/* echo base_url() */?>asset/photos/<?php/* echo $arrPhoto[5];*/?>" class="img-responsive" />
+									<img src="<?php/* echo base_url() */?>asset/photos/<?php echo "salle01.jpg";?>" class="img-responsive" />
 									<div class="panel-body">
 										<p><?php/* echo $arrIntitule[5]; */?></p>
 										<p><?php/* echo $arrDate[5]; */?></p>
