@@ -1,0 +1,3 @@
+<?php
+
+$phpgrid->display();
