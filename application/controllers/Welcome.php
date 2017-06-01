@@ -20,6 +20,45 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->library('session');
+		$this->load->model("Auth_user");
+
+		$this->load->view('v_header');
 		$this->load->view('v_homepage');
+		$this->load->view('v_footer');
 	}
+
+	public function connexion() {
+
+		/*
+
+		$this->load->library('Session');
+		$this->load->model("Auth_user");
+	    $this->load->helper("form");
+	    $this->load->library('form_validation');
+
+
+	    if ($this->form_validation->run()) {
+	      $username = $this->input->post('username');
+	      $password = $this->input->post('password');
+	      $this->auth_user->login($username, $password);
+	      if ($this->auth_user->is_connected) {
+	        redirect('index');
+	      } else {
+	        $data['login_error'] = "Échec de l'authentification";
+	      // echo "<h2 style='color:black; background-color:white; text-align:center;'>Debug: Not validated</h2>";
+	      }
+		}
+
+		$this->load->view('v_connexion', $data);
+
+		*/
+  }
+
+    function deconnexion() {
+    	/*
+	    $this->auth_user->logout();
+	    redirect('index');*/
+  }
+
 }
