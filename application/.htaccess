@@ -1,3 +1,5 @@
+# BEGIN DENY LIST --
+# END DENY LIST --
 <IfModule authz_core_module>
     Require all denied
 </IfModule>

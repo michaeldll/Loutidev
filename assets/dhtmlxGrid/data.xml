@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+    <row id="a">
+        <cell>book 1</cell>   //1st column
+        <cell>300</cell>      //2nd column
+        <cell>50</cell>       //3rd column
+    </row>
+    <row id="b">
+        <cell>book 2</cell>
+        <cell>2147</cell>
+        <cell>43</cell>
+    </row>
+    <row id="c">
+        <cell>book 3</cell>
+        <cell>7488</cell>
+        <cell>100</cell>
+    </row>
+</rows>
